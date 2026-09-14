@@ -1,0 +1,9 @@
+
+.add {
+    padding: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 6px;
+    border: 1px solid aliceblue;
+    font-weight: 700;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events</title>
+    <link rel="stylesheet" href="formevents.css">
+</head>
+
+<body>
+
+    <form action="">
+        <label for="name">Name :</label>
+        <input type="text" id="name" class="simple-form">
+        <br><br>
+        <button id="btn1">Submit</button>
+        <p id="message"></p>
+    </form>
+    <br>
+    <form action="">
+        <label for="password">Password :</label>
+        <input type="number" id="password">
+        <br>
+        <button id="btn2">Submit</button>
+    </form>
+    <br>
+
+    <form action="">
+        <label for="email">Email :</label>
+        <input type="email" id="email">
+    </form>
+    <br>
+
+    <form action="">
+        <label for="pl">Programming languages : </label>
+        <select name="pl" id="pl">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+        <p id="selected-language"></p>
+    </form>
+    <br>
+
+    <form action="">
+        <label for="a">Phone No :</label>
+        <input type="tel" id="a">
+    </form>
+    <br>
+
+    <form action="">
+        <label for="cp">Confirm Password :</label>
+        <input type="tel" id="cp">
+        <p id="message2"></p>
+    </form>
+
+    <h1>Form Validation</h1>
+
+    <form action="" id="form">
+
+        <div>
+            <label for="name2">Name :</label>
+            <input type="text" id="name2" placeholder="Enter your name">
+            <span id="error" style="color: rgba(214, 32, 32, 0.821);"></span>
+            <br><br>
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+    <br>
+
+    <form action="" id="form2">
+        <div>
+            <label for="email2">Email :</label>
+            <input type="email" id="email2" placeholder="Enter your email">
+            <span id="error2" style="color: rgba(214, 32, 32, 0.821);"></span>
+            <br><br>
+        </div>
+
+        <button id="submit2">Submit</button>
+    </form>
+    <br>
+
+    <form action="" id="form3">
+        <div>
+            <label for="psd2">Password :</label>
+            <input type="password" id="psd2" placeholder="Enter your password">
+            <span id="error3" style="color: rgba(214, 32, 32, 0.821);"></span>
+            <br><br>
+        </div>
+        <button id="submit3">Submit</button>
+    </form>
+    <br>
+
+    <h1>Create Account</h1>
+
+    <form id="myForm" action="">
+        <div>
+            <label for="name3">Name :</label>
+            <input type="text" id="name3" placeholder="Enter your username">
+            <span class="er-msg" style="font-size: 20px; color: rgba(212, 16, 16, 0.87);"></span>
+        </div>
+        <br>
+        <div>
+            <label for="email3">Email :</label>
+            <input type="email" id="email3" placeholder="Enter your email">
+            <span class="er-msg" style="font-size: 20px; color: rgba(212, 16, 16, 0.87);"></span>
+        </div>
+        <br>
+        <div>
+            <label for="psd3">Password :</label>
+            <input type="password" id="psd3" placeholder="Enter your password">
+            <span class="er-msg" style="font-size: 20px; color: rgba(212, 16, 16, 0.87);"></span>
+        </div>
+        <br><br>
+        <button id="submit4">Create Account</button>
+        <h2 id="account-created"></h2>
+    </form>
+
+    <script src="formevents.js"></script>
+</body>
+
+</html>
